@@ -117,7 +117,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons in Hero */
+/* Buttons */
 .hero-buttons {
   margin-top: 20px;
 }
@@ -150,7 +150,7 @@ body {
   color: white;
 }
 
-/* Social icons in Hero */
+/* Social Icons */
 .hero-social {
   margin-top: 40px;
 }
@@ -166,7 +166,7 @@ body {
   color: #4f46e5;
 }
 
-/* About Section */
+/* About */
 .about {
   text-align: center;
   padding: 80px 40px;
@@ -247,7 +247,7 @@ body {
   font-size: 15px;
 }
 
-/* Contact Section */
+/* Contact */
 .contact {
   background: linear-gradient(to right, #f3e8ff, #e0e7ff);
   padding: 80px 40px;
@@ -302,4 +302,21 @@ footer {
   padding: 20px;
   font-size: 14px;
   color: #0a0a0a9a;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 220px 20px 60px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    margin-top: 30px;
+  }
+
+  .hero-img img {
+    max-width: 200px;
+  }
 }
